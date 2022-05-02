@@ -1,0 +1,191 @@
+@import url(./reset.css);
+
+
+.movie_list {
+    width: 1060px;
+    background-color: #f2f2f2;
+    margin: 90px auto 135px;
+    border: 2px solid #bdbdbd;
+    box-sizing: border-box;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.title {
+    margin: 0 auto;
+    width: 650px;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 41px 0 37px;
+    border-bottom: 2px solid #bdbdbd;
+}
+
+.select_list {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 343px 0;
+}
+
+
+.select_list_btn {
+    text-decoration: none;
+    color: #828282;
+}
+
+.selected_list_btn {
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+.movie_card_list {
+    margin: 28px;
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.3));
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.movie_card {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(22%, auto));
+    gap: 23px;
+    text-align: left;
+    margin: 26px;
+}
+.movie_card li {
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 20px 20px 0;
+    overflow: hidden;
+}
+.movie_poster {
+    width: 180px;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+}
+
+.movie_name {
+    font-weight: 900;
+    font-size: 15px;
+    padding: 12px 0;
+}
+
+
+.movie_card p {
+    font-weight: 400;
+    font-size: 13px;
+    color: #828282;
+    padding-bottom: 5px;
+}
+
+.genre {
+    display: inline-block;
+}
+
+.rating {
+    display: inline-block;
+    float: right;
+}
+
+.movie_detail {
+    color: black;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+.button_box {
+    display: flex;
+    border: none;
+    box-sizing: border-box;
+    margin: 13px -20px 0;
+    border-top: 1px solid #BDBDBD;
+
+}
+
+.reserve_trailer_btn {
+    width: 100%;
+    bottom: 0;
+    background-color: #f2f2f2;
+    height: 41px;
+    font-weight: 500;
+    border: none;
+}
+.reserve_trailer_btn:first-child {
+    border-right: 1px solid #c4c4c4;
+}
+.reserve_trailer_btn img {
+    vertical-align: sub;
+}
+
+
+
+
+
+
+
+
+
+.footer {
+    background-color: #f2f2f2;
+    padding: 53px 19% 38px;
+}
+
+.footer_head {
+    border-bottom: 1px solid #c4c4c4;
+    padding-bottom: 42px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.corp_detail {
+    padding-top: 36px;
+}
+
+
+.corp_name {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+
+.sns img {
+    width: 24px;
+    height: 24px;
+    padding-left: 12px;
+}
+
+.corp_info {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.corp_info:nth-child(1)::after {
+    content: " |";
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.corp_info:nth-child(2)::after {
+    content: " 라이언 |";
+    font-weight: 500;
+}
+
+.corp_info:nth-child(3)::after {
+    content: " 000-0000-0000 | 광고 영화 및 비디오물 제작업 | ";
+    font-weight: 500;
+}
+
+.corp_info:nth-child(4)::after {
+    content: " 서울특별시";
+    font-weight: 500;
+}
